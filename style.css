@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("img/space.png");
+  background-image: url(" img/space.png");
   width: 90%;
   margin: auto;
   overflow-x: hidden;
@@ -105,7 +105,7 @@ figcaption {
   max-width: 100%;
 }
 
-#main img {
+#main  img {
   width: 100%;
   height: 95%;
 }
