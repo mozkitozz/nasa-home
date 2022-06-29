@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("img/space.png");
+  width: 90%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+/* Header */
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  color: aliceblue;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#navigation {
+  border: 1px solid white;
+  margin: 0 20%;
+}
+
+#navigation li {
+  list-style: none;
+  display: inline-block;
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+#navigation li:hover {
+  background-color: #15418c;
+}
+
+#navigationbas {
+  border: 1px solid #999;
+  background-color: rgb(110, 109, 109);
+  margin: 0 10%;
+}
+
+#navigationbas li {
+  list-style: none;
+  display: inline-block;
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+#navigationbas li:hover {
+  background-color: gray;
+}
+
+#alarm {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  margin: 20px 0;
+  font-weight: 900;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+/* Main */
+
+figure {
+  border: 1px #cccccc solid;
+  margin: auto;
+}
+
+figcaption {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  text-align: center;
+  font-style: bold;
+  font-size: 1.2rem;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bloc {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid white;
+}
+
+.bloc div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.sousbloc {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 100%;
+}
+
+#main img {
+  width: 100%;
+  height: 95%;
+}
+
+#main figure {
+  width: 100%;
+  height: 100%;
+}
+
+figcaption {
+  font-family: inherit;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 2%;
+  margin-bottom: 0px;
+}
+
+#stories {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  margin: 3% 0;
+  width: 100%;
+  background-color: rgba(10, 116, 255, 0.588);
+}
+
+#stories:hover {
+  background-color: rgb(122, 168, 228);
+}
+
+
+
+#footernav ul {
+  display: flex;
+}
+
+#footernav li {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #5d7fb9;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin: 1%;
+  list-style: none;
+}
+
+#footerlogo {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .sousbloc {
+    width: 100%;
+  }
+  #footerlogo {
+    float: left;
+  }
+  #footernav  {
+    float:left; 
+    clear: left;
+    margin: 3% auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}
